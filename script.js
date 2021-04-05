@@ -89,6 +89,7 @@ const option3 = document.querySelector('#option3');
 const option4 = document.querySelector('#option4');
 
 const submit = document.querySelector('#submit');
+
 const showScore = document.querySelector('#showScore');
 
 let questionCount = 0;
