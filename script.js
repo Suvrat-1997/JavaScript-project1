@@ -141,7 +141,7 @@ submit.addEventListener('click', () => {
         loadQuestion();
     } else {
         showScore.innerHTML = `
-            <h3> You scored ${score} out of ${quizDB.length} </h3>
+            <h3> You scored ${score} out of ${quizDB.length} &#128512;</h3>
             <button class="btn" onclick="location.reload()"> Play Again</button>
         `;
 
